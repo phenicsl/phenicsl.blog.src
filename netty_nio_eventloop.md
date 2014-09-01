@@ -1,6 +1,6 @@
 Date: 2014-07-19 18:30
 Title: Netty代码分析 - NioEventLoop
-Tags: Java Netty
+Tags: Java, Netty
 Category: Distributed Architecture
 
 利用Java NIO提供的`multiplexing`和`non-blocking io`来处理网络请求, 可以在同一个线程内使用Selector处理多个网络连接, 节省了线程切换的开销，服务可以处理大量的并发连接, 程序的性能得到提升. 在Java NIO的基础上，*Netty*规划了线程模型和事件处理结构, 提供了抽象的接口来处理网络请求, 保证了程序的可靠性和高性能 ...
